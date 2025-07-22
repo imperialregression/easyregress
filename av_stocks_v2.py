@@ -61,7 +61,7 @@ def load_stock_data_ind(ticker_list, interval_av, stock_type_av_index,
                     stock_type, start_date, end_date):
     stocks_dataframe = pd.DataFrame()
     stock_dates = pd.DataFrame()
-    av_api = "4XC4XAL2OFT48Y7R" # Premium
+                        
     index = 0
     for ticker in ticker_list:        
         try:
